@@ -1063,7 +1063,7 @@ audio {
 		transform:translate(0px,-1000px);
 	}
 	33%{
-		transform:translate(0px,0px);
+		transform:translate(0px , 0px);
 		transform:rotate(10deg);
 		/*-webkit-transform:scale(1.5);*/
 	}
@@ -1293,13 +1293,15 @@ audio {
 }
 
 .btn-primary {
-        border-color: #466baf;
+        border-color: #8338ec;
         padding: 10px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
         font-weight: 700;
+		transform: translateY(-30px);
         color: #fff;
-        background-color: #466baf;
+        background-color: #8338ec;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
     .btn-primary:hover,
     .btn-primary:focus,
@@ -1308,7 +1310,8 @@ audio {
     .open .dropdown-toggle.btn-primary {
         border-color: #fff;
         color: #fff;
-        background-color: #466baf;
+        background-color: #ff006e;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
 
